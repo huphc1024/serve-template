@@ -9,7 +9,7 @@ let http = require('https');
 const productRouter = require('./router.product');
 const { head } = require('./router.product');
 
-var whitelist = ['http://localhost:4200', 'http://34.84.149.232', 'http://listing.supportseller.com', 'https://listing.supportseller.com'];
+var whitelist = ['http://localhost:4200', 'http://34.84.149.232', 'https://listing1024.herokuapp.com/', 'https://listing.supportseller.com'];
 var corsOptions = {
     origin: function (origin, callback) {
         if (!origin || whitelist.indexOf(origin) !== -1) {
